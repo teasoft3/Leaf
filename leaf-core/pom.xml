@@ -15,13 +15,13 @@
         <mysql-connector-java.version>5.1.38</mysql-connector-java.version>
         <commons-io.version>2.4</commons-io.version>
         <log4j.version>2.7</log4j.version>
-        <mybatis-spring.version>1.2.5</mybatis-spring.version>
+<!--         <mybatis-spring.version>1.2.5</mybatis-spring.version> -->
     </properties>
     <dependencies>
-        <dependency>
+<!--         <dependency>
             <groupId>org.mybatis</groupId>
             <artifactId>mybatis</artifactId>
-        </dependency>
+        </dependency> -->
 
         <dependency>
             <groupId>org.perf4j</groupId>
@@ -99,11 +99,21 @@
             <groupId>mysql</groupId>
             <artifactId>mysql-connector-java</artifactId>
         </dependency>
+        
         <dependency>
+			<groupId>org.teasoft</groupId>
+			<artifactId>bee</artifactId>
+		</dependency>
+
+		<dependency>
+			<groupId>org.teasoft</groupId>
+			<artifactId>honey</artifactId>
+		</dependency> 
+<!--         <dependency>
             <groupId>org.mybatis</groupId>
             <artifactId>mybatis-spring</artifactId>
             <scope>test</scope>
-        </dependency>
+        </dependency> -->
 
         <dependency>
             <groupId>junit</groupId>
