@@ -184,7 +184,8 @@ public class SegmentIDGenImpl implements IDGen {
             }
             logger.info("leafKey[{}], step[{}], duration[{}mins], nextStep[{}]", key, buffer.getStep(), String.format("%.2f",((double)duration / (1000 * 60))), nextStep);
             LeafAlloc temp = new LeafAlloc();
-            temp.setKey(key);
+//            temp.setKey(key);
+            temp.setBizTag(key);
             temp.setStep(nextStep);
             leafAlloc = dao.updateMaxIdByCustomStepAndGetLeafAlloc(temp);
             buffer.setUpdateTimestamp(System.currentTimeMillis());

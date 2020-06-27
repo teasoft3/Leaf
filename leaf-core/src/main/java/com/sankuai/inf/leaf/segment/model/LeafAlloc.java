@@ -1,36 +1,36 @@
 package com.sankuai.inf.leaf.segment.model;
 
 public class LeafAlloc {
-    private String key;
-    private long maxId;
-    private int step;
+	private String bizTag;
+    private Long maxId;
+    private Integer step;
     private String updateTime;
 
-    public String getKey() {
-        return key;
-    }
+    public String getBizTag() {
+		return bizTag;
+	}
 
-    public void setKey(String key) {
-        this.key = key;
-    }
+	public void setBizTag(String bizTag) {
+		this.bizTag = bizTag;
+	}
 
-    public long getMaxId() {
-        return maxId;
-    }
+    public Long getMaxId() {
+		return maxId;
+	}
 
-    public void setMaxId(long maxId) {
-        this.maxId = maxId;
-    }
+	public void setMaxId(Long maxId) {
+		this.maxId = maxId;
+	}
 
-    public int getStep() {
-        return step;
-    }
+	public Integer getStep() {
+		return step;
+	}
 
-    public void setStep(int step) {
-        this.step = step;
-    }
+	public void setStep(Integer step) {
+		this.step = step;
+	}
 
-    public String getUpdateTime() {
+	public String getUpdateTime() {
         return updateTime;
     }
 
